@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 
-board = display_board(board)
+board = display_board(board[1])
 
 puts "Where would you like to go?"
 
@@ -18,4 +18,4 @@ board[index] = player
 
 move(board, index, player="X")
 
-display_board(board)
+display_board(board[2])
