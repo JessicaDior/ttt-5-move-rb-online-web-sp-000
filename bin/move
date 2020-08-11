@@ -16,6 +16,8 @@ input_to_index(user_input)
 
 index = user_input
 
+player = "X"
+
 board[index] = player
 
 move(board, index, player="X")
