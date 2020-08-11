@@ -20,4 +20,4 @@ board[index] = player
 
 move(board, index, player="X")
 
-display_board(board)
+board = display_board(board)
