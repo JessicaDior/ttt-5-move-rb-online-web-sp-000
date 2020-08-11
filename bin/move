@@ -10,9 +10,9 @@ display_board(board)
 
 print "Where would you like to go?"
 
-gets.strip = input
+gets.strip = user_input
 
-input_to_index(input)
+input_to_index(user_input)
 
 player = "X"
 
