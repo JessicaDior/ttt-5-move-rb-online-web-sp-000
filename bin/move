@@ -19,3 +19,5 @@ player = "X"
 board[index] = player
 
 move(board, index, player="X")
+
+display_board(board)
