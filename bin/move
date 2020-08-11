@@ -18,6 +18,6 @@ player = "X"
 
 board[index] = player
 
-move(board, index, player="X")
+board = move(board, index, player="X")
 
-display_board(board[1])
+display_board(board)
