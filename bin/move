@@ -20,4 +20,3 @@ board[index] = player
 
 move(board, index, player="X")
 
-board
